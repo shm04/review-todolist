@@ -1,0 +1,101 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.main {
+  border: solid 1px gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.title {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.input-div {
+  display: flex;
+  align-items: center;
+  border: solid 1px gray;
+  border-left: none;
+  border-right: none;
+}
+
+.input {
+  height: 40px;
+  padding-left: 10px;
+  width: 85vw;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  font-size: 15px;
+}
+
+.enter-img {
+  height: 25px;
+  margin-right: 15px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.li-text {
+  margin: 0 50px;
+}
+
+.edit-input {
+  font-size: 15px;
+  height: 30px;
+  padding-left: 10px;
+  margin-left: 50px;
+}
+
+.delete-icon {
+  height: 25px;
+  justify-self: flex-end;
+  margin-left: auto;
+}
+
+.dots-img {
+  height: 30px;
+}
+
+.clear-all {
+  height: 60px;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: solid 1px gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.clear-all:hover {
+  background-color: rgb(206, 201, 201);
+}
